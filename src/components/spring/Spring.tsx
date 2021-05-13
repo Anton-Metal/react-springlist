@@ -65,10 +65,10 @@ const Spring = () => {
 
 		<p>Lägg till band 
 
-		<input type="text" placeholder="Ett vårtecken"
+		<input type="text" placeholder="Write a band"
 					onChange={event => {setNewSign(event.target.value)}}
 					value={newSign} />
-				<button onClick={handleAddSign}> Lägg till </button>
+				<button onClick={handleAddSign}> Add </button>
 		</p>
 			
 			
